@@ -1,7 +1,9 @@
 # System Architecture
 
 ## Overview
-DevOps Simulator follows a microservices architecture designed for high availability and scalability. This document covers both production and development configurations.
+DevOps Simulator follows a microservices architecture designed for high availability and scalability. This document covers production, development, and experimental configurations.
+
+---
 
 ## Components
 
@@ -22,6 +24,8 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 - **Development**: Console logging with verbose output
 - **Metrics**: CPU, Memory, Disk, Network
 
+---
+
 ## Deployment Strategy
 
 ### Production
@@ -35,6 +39,55 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 - **Features**: Hot reload, instant feedback
 - **Testing**: Automated tests before deployment
 
+---
+
 ## Security
-- **Production**: SSL/TLS encryption, strict access controls
-- **Development**: Relaxed security for easier debugging
+
+### Production
+- **Encryption**: SSL/TLS
+- **Access Controls**: Strict role-based policies
+
+### Development
+- **Security**: Relaxed for easier debugging
+
+---
+
+## ⚗️ Experimental Architecture (Not Production-Ready)
+
+### Overview
+DevOps Simulator also supports an **event-driven microservices architecture** with AI/ML integration, designed for multi-cloud deployments and chaos engineering.
+
+### Core Components
+
+#### Application Server (AI-Enhanced)
+- **Technology**: Node.js + Express + TensorFlow.js
+- **Ports**: 9000 (main), 9001 (metrics), 9002 (AI API)
+- **Scaling**: Predictive auto-scaling via ML
+- **Message Queue**: Apache Kafka
+
+#### Distributed Database Layer
+- **Cluster**: PostgreSQL 14 (5 nodes)
+- **Cache**: Redis with ML-based optimization
+- **Replication**: Multi-master
+- **Backup**: Continuous with geo-redundancy
+- **AI Features**: Query optimization, index suggestions
+
+#### AI/ML Pipeline
+- **Frameworks**: TensorFlow, PyTorch, Scikit-learn
+- **Models**:
+  - LSTM for anomaly detection
+  - XGBoost for load prediction
+  - Reinforcement Learning for scaling
+- **Inference**: Real-time (<50ms latency)
+
+#### Multi-Cloud Orchestration
+- **Clouds**: AWS, Azure, GCP, DigitalOcean
+- **Orchestrator**: Kubernetes with CRDs
+- **Load Balancing**: GeoDNS + anycast
+- **Failover**: Cross-cloud automation
+
+#### Advanced Monitoring
+- **Metrics**: Prometheus + Thanos
+- **Logs**: ELK Stack + AI log analysis
+
+---
