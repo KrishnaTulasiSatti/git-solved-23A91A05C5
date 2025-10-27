@@ -7,4 +7,5 @@
 - Used `git pull instructor main` **1 time** to sync changes into local `main` branch
 - Used `git stash push`**1 time** to temporarily shelve uncommitted changes
 - Used `git stash pop` **1 time** to restore shelved changes after switching branches
+- Used `git cherry-pick e838ab9` **1 time** to selectively apply a commit from another branch without merging the full branch
 
