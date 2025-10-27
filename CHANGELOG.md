@@ -9,4 +9,9 @@
 - Used `git stash pop` **1 time** to restore shelved changes after switching branches
 - Used `git cherry-pick e838ab9` **1 time** to selectively apply a commit from another branch without merging the full branch
 - Used `git rebase main` 1 time to align feature branch with latest main updates
+### Git Activity
+- Used `git reset` **3 times** to reposition branch history
+- Used `git revert HEAD` **1 time** to safely undo a faulty commit without rewriting history
+- Created **2+ tags** to mark stable checkpoints and version milestones
+
 
