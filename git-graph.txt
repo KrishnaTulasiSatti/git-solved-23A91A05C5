@@ -1,0 +1,35 @@
+* 86f3710 (HEAD -> main, origin/main) docs: Add changelog
+* 46f74d4 Reapply "Created GIT_JOURNEY.md"
+* 09e16f1 Revert "Created GIT_JOURNEY.md"
+* 6c08202 Created GIT_JOURNEY.md
+* 91d8588 feat: Add test feature
+* ecc04b2 Updating CHANGELOG.md file
+* eca7830 Updating CHANGELOG.md file
+| * d7f11ff (tag: v1.1.0, tag: v1.0.0) Updating CHANGELOG.md file
+|/  
+| * 2f05010 (origin/feature/another-feature, feature/another-feature) feat: Add test feature
+|/  
+* 24a8cd8 docs: Update README
+* 53e8e03 Updating CHANGELOG.md file
+* 8b33ee3 feat: Add new feature
+* 5517d20 Updating CHANGELOG.md file
+* cb88e7d docs: Add FAQ section
+| * e838ab9 (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+|/  
+* ecb1a8f Updating CHANGELOG.md file
+* 80c66b7 updated README.md file
+* eaae6da Created CHANGELOG.md file to document the GIT activity
+* 7a619da Added checkpoint3.png to checkpoints folder
+*   3937778 merge: Resolved all the conflicts between main and conflict-simulator
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | b5091bd Added checkpoint2.png to checkpoints folder
+* |   91252c7 merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | 5711cbb Added checkpoint1.png to checkpoints folder
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
