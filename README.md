@@ -7,7 +7,7 @@ A comprehensive CI/CD configuration management tool for enterprise deployments, 
 ## Project Status
 - **Version**: 1.0.0 (Production), 2.0.0-beta (Development), 3.0.0-experimental (Testing)
 - **Environments**: Production, Development, Experimental
-- **Student**: Krishna Tulasi Satti
+- **Student**: KRISHNA TULASI SATTI
 - **Student ID**: 23A91A05C5
 - **Maintainer (Experimental)**: DevOps Innovation Team
 
